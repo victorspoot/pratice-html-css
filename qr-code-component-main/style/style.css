@@ -19,5 +19,50 @@ body {
 }
 
 .container {
-    
+    width: 99vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 550px;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px hsla(217, 45%, 22%, 0.404);
+    background-color: var(--cor0);
+}
+
+.imagem {
+    background-image: url("../images/image-qr-code.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    margin-top: 15px;
+}
+
+.p-1 {
+    margin-top: 25px;
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 1.7em;
+    text-align: center;
+    color: var(--cor3);
+}
+
+p {
+    margin-top: 40px;
+    color: var(--cor2);
+    text-align: center;
+}
+
+div footer {
+    text-align: center;
 }
