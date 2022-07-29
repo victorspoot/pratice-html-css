@@ -67,9 +67,28 @@ p {
 
 .eth {
     display: flex;
-    justify-content: flex-end;
 }
 
-div.eth p {
-    margin-left: 65px;
+div.eth > p:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 40px;
+    color: var(--cor1);
+}
+
+div.eth > p:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+svg {
+    margin-right: 5px;
+}
+
+hr#line {
+    margin: 20PX;
+    width: 300px;
+    border: 1px solid var(--cor4);
 }
