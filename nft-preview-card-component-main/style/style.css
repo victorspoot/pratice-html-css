@@ -42,7 +42,6 @@ main {
 .view {
     width: 48PX;
     height: 48px; 
-    display: none;
     position: absolute;
     left: 50%;
     top:31%;
@@ -54,6 +53,16 @@ img {
     margin-top: 23px;
     width: 300px;
     height: 300px;
+}
+
+img:hover {
+    background-image: url("../images/icon-view.svg");
+    width: 48px;
+    height: 48px;
+    background-color: var(--cor1);
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
 }
 
 h1 {
@@ -135,4 +144,9 @@ span:hover {
 
 footer {
     text-align: center;
+    color: var(--cor5);
+}
+
+a {
+    color: var(--cor1);
 }
