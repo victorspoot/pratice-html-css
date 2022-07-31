@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor0: hsl(225, 100%, 94%);
+    --cor1: hsl(245, 75%, 52%);
+    --cor2: hsl(225, 100%, 98%);
+    --cor3: hsl(224, 23%, 55%);
+    --cor4: hsl(223, 47%, 23%);
+
+    --font: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+.container {
+    display: flex;
+    width: 98vw;
+    height: 96vh;
+}
+
+main {
+    margin: auto;
+    width: 450px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.illustration-hero img {
+    width: 450px;
+    height: 230px;
+    border-radius: 20px 20px 0 0;
+}
+
+h1 {
+    font-family: var(--font);
+    font-weight: 900;
+    color: var(--cor4);
+    margin-top: 40px;
+    text-align: center;
+}
+
+p {
+    font-family: var(--font);
+    font-size: 18px;
+    color: var(--cor3);
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.5em;
+}
+
+.plan {
+    display: flex;
+    width: 406px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: var(--cor2);
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.plan p {
+    
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
