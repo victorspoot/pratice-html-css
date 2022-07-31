@@ -30,8 +30,8 @@ main {
     margin: auto;
     width: 460px;
     height: 700px;
-    border: 1px solid black;
     border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
     background-color: white;
 }
 
@@ -94,6 +94,12 @@ span {
     text-decoration: underline;
 }
 
+.plan div:nth-child(3):hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.705);
+    cursor: pointer;
+}
+
 #payment {
     margin: auto;
     margin-top: 40px;
@@ -108,9 +114,20 @@ span {
     font-weight: 700;
 }
 
+#payment:hover {
+    background-color: hsla(245, 75%, 52%, 0.705);
+    cursor: pointer;
+}
+
 p#cancel {
     font-size: 16px;
     font-weight: 700;
+}
+
+p#cancel:hover {
+    color: var(--cor4);
+    cursor: pointer;
+    font-weight: 900;
 }
 
 .attribution { 
