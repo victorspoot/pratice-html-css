@@ -133,7 +133,7 @@ p#cancel:hover {
 @media (max-width: 500px) {
     main {
         width: 375px;
-        height: 700px;
+        height: 650px;
     }
 
     .illustration-hero img {
@@ -142,21 +142,36 @@ p#cancel:hover {
     }
     
     h1 {
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     p {
-        font-size: 20px;
-        color: var(--cor3);
-        margin-top: 10px;
-        text-align: center;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 40px;
+        padding-right: 30px;
         line-height: 1.5em;
     }
+
+    .plan {
+        width: 310px;
+        height: 90px;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .plan div:nth-child(2) p {
+        margin-left: -50px;
+    }
+
+    #payment {
+        width: 310px;
+        margin-top: 30px;
+    }
+
+    p#cancel {
+        padding-top: 20px;
+    }
 }
-
-
 
 .attribution { 
     font-size: 11px; 
