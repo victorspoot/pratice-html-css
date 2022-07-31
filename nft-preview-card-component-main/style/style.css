@@ -40,12 +40,20 @@ main {
 }
 
 .view {
-    width: 48PX;
-    height: 48px; 
     position: absolute;
+}
+
+div.view img {
+    visibility: hidden;
+    width: 48PX;
+    height: 48px;
     left: 50%;
-    top:31%;
-    transform: translate(-45%, -30%);
+    top: 50%;
+    transform: translate(5%, 260%); 
+}
+
+.equilibrium {
+    position: relative;
 }
 
 img {
@@ -53,16 +61,6 @@ img {
     margin-top: 23px;
     width: 300px;
     height: 300px;
-}
-
-img:hover {
-    background-image: url("../images/icon-view.svg");
-    width: 48px;
-    height: 48px;
-    background-color: var(--cor1);
-    width: 300px;
-    height: 300px;
-    cursor: pointer;
 }
 
 h1 {
