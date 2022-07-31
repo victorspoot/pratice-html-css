@@ -40,20 +40,19 @@ main {
 }
 
 .view {
-    position: absolute;
+    position: absolute; 
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 23px;
 }
 
-div.view img {
-    visibility: hidden;
-    width: 48PX;
-    height: 48px;
-    left: 50%;
-    top: 50%;
-    transform: translate(5%, 260%); 
-}
-
-.equilibrium {
-    position: relative;
+.view:hover {
+    background-image: url("../images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: hsla(178, 100%, 50%, 0.507);
+    cursor: pointer;
 }
 
 img {
