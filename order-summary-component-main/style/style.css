@@ -39,7 +39,7 @@ main {
 .illustration-hero img {
     width: 460px;
     height: 230px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 22px 22px 0 0;
 }
 
 h1 {
@@ -135,13 +135,12 @@ p#cancel:hover {
     main {
         width: 365px;
         height: 650px;
-        border-radius: 20px;
+        border-radius: 22px;
     }
 
     .illustration-hero img {
         width: 365px;
         height: 180px;
-        border-radius: 18px 18px 0 0;
     }
     
     h1 {
