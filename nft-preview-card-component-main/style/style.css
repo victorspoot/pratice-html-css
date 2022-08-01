@@ -140,7 +140,9 @@ span:hover {
     cursor: pointer;
 }
 
-footer {
+.attribuition {
+    padding-top: 10px;
+    font-size: 11px;
     text-align: center;
     color: var(--cor5);
 }
