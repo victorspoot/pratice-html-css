@@ -133,7 +133,7 @@ p#cancel:hover {
 @media (max-width: 500px) {
     main {
         width: 370px;
-        height: 680px;
+        height: 650px;
         border-radius: 20px;
     }
 
@@ -167,7 +167,7 @@ p#cancel:hover {
 
     #payment {
         width: 310px;
-        margin-top: 45px;
+        margin-top: 30px;
     }
 
     p#cancel {
