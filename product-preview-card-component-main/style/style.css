@@ -105,9 +105,10 @@ svg {
 }
 
 .attribuition {
+    bottom: 0;
     padding-top: 10px;
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
 }
 
 @media (max-width: 624px) {
