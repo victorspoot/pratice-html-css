@@ -152,5 +152,5 @@ a {
 }
 
 a:visited {
-    color: var(--cor1);
+    color: hsl(290, 100%, 50%);
 }
