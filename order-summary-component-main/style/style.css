@@ -137,6 +137,11 @@ p#cancel:hover {
         border-radius: 20px;
     }
 
+    .illustration-hero {
+        width: 375px;
+        height: 180px;
+    }
+
     .illustration-hero img {
         width: 375px;
         height: 180px;
