@@ -133,13 +133,8 @@ p#cancel:hover {
 @media (max-width: 500px) {
     main {
         width: 375px;
-        height: 660px;
+        height: 680px;
         border-radius: 20px;
-    }
-
-    .illustration-hero {
-        width: 375px;
-        height: 180px;
     }
 
     .illustration-hero img {
