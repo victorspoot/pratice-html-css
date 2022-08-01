@@ -28,7 +28,6 @@ body {
 
 main {
     margin: auto;
-    margin-top: 150px;
     width: 330px;
     height: 550px;
     border-radius: 20px;
@@ -71,5 +70,5 @@ p {
 
 .attribuition {
     font-size: 11px; 
-    margin: auto; 
+    text-align: center;
 }
