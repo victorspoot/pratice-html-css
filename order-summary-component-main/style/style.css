@@ -134,7 +134,7 @@ p#cancel:hover {
 @media (max-width: 500px) {
     main {
         width: 365px;
-        height: 650px;
+        height: 680px;
         border-radius: 20px;
     }
 
@@ -177,7 +177,7 @@ p#cancel:hover {
 }
 
 .attribution { 
-    
+    padding-top: 10px;
     font-size: 11px; 
     margin: auto; 
 }
