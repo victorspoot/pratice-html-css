@@ -120,13 +120,13 @@ svg {
         background-image: url("../images/image-product-mobile.jpg");
         background-repeat: no-repeat;
         border-radius: 15px 15px 0 0;
-        width: 400px;
+        width: 390px;
         height: 250px;
     }
 
     main {
         border-radius: 0 0 15px 15px;
-        width: 400px;
+        width: 390px;
         height: 500px;
     }
 
@@ -137,14 +137,14 @@ svg {
 
     h2 {
         font-size: 2em;
-        padding-left: 20px;
+        padding-left: 10px;
         padding-right: 50px;
     }
 
     main p {
         font-size: 1.1em;
-        padding-left: 20px;
-        padding-right: 13px;
+        padding-left: 10px;
+        padding-right: 1px;
         text-align: left;
     }
 
