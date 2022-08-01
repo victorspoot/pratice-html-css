@@ -105,8 +105,7 @@ svg {
 }
 
 .attribuition {
-    position: fixed;
-    bottom: 0;
+    position: relative;
     padding-top: 10px;
     font-size: 11px; 
     text-align: center;
