@@ -144,9 +144,13 @@ span:hover {
     padding-top: 10px;
     font-size: 11px;
     text-align: center;
-    color: var(--cor5);
+    color: white;
 }
 
 a {
+    color: var(--cor1);
+}
+
+a:visited {
     color: var(--cor1);
 }
