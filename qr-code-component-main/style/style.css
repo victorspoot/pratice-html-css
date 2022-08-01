@@ -71,5 +71,7 @@ p {
 }
 
 div footer {
-    text-align: center;
+    padding-top: 10px;
+    font-size: 11px; 
+    margin: auto; 
 }
