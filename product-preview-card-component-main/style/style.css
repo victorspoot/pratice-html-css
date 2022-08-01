@@ -101,8 +101,10 @@ svg {
     color: white;
 }
 
-footer {
-    text-align: center;
+.attribuition {
+    padding-top: 10px;
+    font-size: 11px; 
+    text-align: center; 
 }
 
 @media (max-width: 624px) {
