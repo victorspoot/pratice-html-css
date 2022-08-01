@@ -179,7 +179,7 @@ p#cancel:hover {
 .attribution { 
     padding-top: 10px;
     font-size: 11px; 
-    margin: auto; 
+    text-align: center; 
 }
 .attribution a {
      color: hsl(228, 45%, 44%);
