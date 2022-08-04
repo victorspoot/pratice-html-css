@@ -26,17 +26,17 @@ body {
 .container {
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     width: 98vw;
     height: 96vh;
 }
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+    background-color: var(--card-background);
     width: 1300px;
     height: 500px;
-    background-color: var(--card-background);
 }
 
 .text {
@@ -89,12 +89,5 @@ p {
 }
 
 img {
-    width: 650px;
-    height: 500px;
-}
-
-@media (max-width: 1400px) {
-    main {
-        width: 1000px;
-    }
+    width: 100%;
 }
