@@ -24,8 +24,78 @@ body {
 }
 
 .container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 96;
+    height: 98vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1300px;
+    height: 500px;
+    background-color: var(--card-background);
+}
+
+.text {
+    padding-left: 90px;
+    padding-right: 150px;
+    padding-top: 90px;
+}
+
+h1 {
+    font-family: var(--font0);
+    font-weight: 700;
+    font-size: 2.3em;
+    color: var(--main-heading-stats);
+}
+
+.text > h1 > span {
+    color: var(--accent);
+}
+
+p {
+    margin-top: 30px;
+    color: var(--main-paragraph);
+    font-size: 15px;
+    font-family: var(--font0);
+    font-weight: 400;
+    line-height: 1.7em;
+    padding-right: 40px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.numbers {
     display: flex;
-    max-width: 1440px;
-    min-width: 500px;
-    width: 100%;
+    margin-top: 50px;
+}
+
+.edit-numbers {
+    font-family: var(--font0);
+    font-weight: 700;
+    color: var(--main-heading-stats);
+    font-size: 1.7em;
+}
+
+.edit-text {
+    font-family: var(--font1);
+    color: var(--stat-headings);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+img {
+    width: 650px;
+    height: 500px;
+}
+
+@media (max-width: 1400px) {
+    .main {
+        width: 1000px;
+        height: 550px;
+    }
 }
