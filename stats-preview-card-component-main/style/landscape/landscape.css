@@ -27,8 +27,8 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 96;
-    height: 98vh;
+    width: 98vw;
+    height: 96vh;
 }
 
 main {
@@ -94,8 +94,7 @@ img {
 }
 
 @media (max-width: 1400px) {
-    .main {
+    main {
         width: 1000px;
-        height: 550px;
     }
 }
