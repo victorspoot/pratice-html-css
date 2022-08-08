@@ -28,18 +28,19 @@ body {
     justify-content: center;
     align-content: center;
     width: 98vw;
-    height: 96vh;
+    height: 98vh;
 }
 
 main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
-    background-color: var(--card-background);
+    display: flex;
     width: 1300px;
     height: 500px;
+    background-color: var(--card-background);
 }
 
 .text {
+    width: 650px;
+    height: 500px;
     padding-left: 90px;
     padding-right: 150px;
     padding-top: 90px;
@@ -89,5 +90,99 @@ p {
 }
 
 img {
-    width: 100%;
+    width: 650px;
+    height: 500px;
+}
+
+
+@media (max-width: 1350px) {
+    .container {
+        width: 100vw;
+    }
+    main {
+        width: 1100px;
+        height: 450px;
+        margin: auto;
+    }
+
+    .text {
+        width: 550px;
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 2.3em;
+    }
+
+    p {
+        font-size: 15px;
+        padding-right: 30px;
+        margin-top: 60px;
+    }
+
+    img {
+        width: 550px;
+        height: 450px;
+    }
+
+    .numbers {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1127px) {
+    .container {
+        width: 75vw;
+        height: 90vh;
+    }
+
+    main {
+        width: 600px;
+        height: 400px;
+    }
+
+    .text {
+        width: 400px;
+        height: 400px;
+    }
+
+    p {
+        margin-top: 30px;
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 950px) {
+    .container {
+        width: 100vw;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 350px;
+        height: 700px;
+        border-radius: 10px;
+    }
+    .text {
+        width: 350px;
+        padding: 30px;
+    }
+
+    h1 {
+        padding-right: 60px;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    img {
+        border-radius: 10px 10px 0 0;
+        width: 350px;
+        height: 270px;
+        background-image: url("../../images/image-header-mobile.jpg");
+    }
 }
