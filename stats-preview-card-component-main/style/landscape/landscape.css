@@ -33,17 +33,34 @@ body {
 
 main {
     display: flex;
+    flex-direction: row-reverse;
     width: 1300px;
     height: 500px;
     background-color: var(--card-background);
 }
 
 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 650px;
     height: 500px;
-    padding-left: 90px;
+    padding-left: 80px;
     padding-right: 150px;
-    padding-top: 90px;
+}
+
+section#image {
+    background-image: url("../../images/image-header-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 500px;
+}
+
+.color-mask {
+    background-color: hsla(277, 64%, 61%, 0.507);
+    width: 650px;
+    height: 500px;
 }
 
 h1 {
@@ -58,7 +75,6 @@ h1 {
 }
 
 p {
-    margin-top: 30px;
     color: var(--main-paragraph);
     font-size: 15px;
     font-family: var(--font0);
@@ -71,7 +87,6 @@ p {
 
 .numbers {
     display: flex;
-    margin-top: 50px;
 }
 
 .edit-numbers {
@@ -89,100 +104,113 @@ p {
     letter-spacing: 2px;
 }
 
-img {
-    width: 650px;
-    height: 500px;
-}
 
-
-@media (max-width: 1350px) {
+@media (max-width: 1380px) {
     .container {
-        width: 100vw;
+        width: 95vw;
     }
     main {
         width: 1100px;
         height: 450px;
-        margin: auto;
+        padding-left: 50px;
     }
 
     .text {
-        width: 550px;
-        padding: 40px;
+        width: 400px;
+        height: 450px;
+
     }
 
-    h1 {
-        font-size: 2.3em;
-    }
-
-    p {
-        font-size: 15px;
-        padding-right: 30px;
-        margin-top: 60px;
-    }
-
-    img {
+    section#image {
         width: 550px;
         height: 450px;
     }
 
-    .numbers {
-        margin-top: 20px;
+    .color-mask {
+        width: 550px;
+        height: 450px;
+    }
+
+    h1 {
+        padding-top: 30px;
     }
 }
 
-@media (max-width: 1127px) {
+@media (max-width: 1235px) {
     .container {
-        width: 75vw;
-        height: 90vh;
+        width: 97vw;
     }
 
     main {
-        width: 600px;
+        width: 1000px;
         height: 400px;
     }
 
     .text {
-        width: 400px;
+        width: 500px;
+        height: 400px;
+        padding-right: 60px;
+    }
+
+    section#image {
+        width: 500px;
         height: 400px;
     }
 
-    p {
-        margin-top: 30px;
-    }
-
-    img {
-        width: 400px;
+    .color-mask {
+        width: 500px;
         height: 400px;
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1150px) {
     .container {
         width: 100vw;
     }
 
     main {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 350px;
-        height: 700px;
-        border-radius: 10px;
+        width: 900px;
+        height: 370px;
     }
+
     .text {
-        width: 350px;
-        padding: 30px;
+        width: 450px;
+        height: 370px;
+        padding-right: 30px;
     }
 
-    h1 {
-        padding-right: 60px;
-        font-size: 2em;
-        text-align: center;
+    section#image {
+        width: 450px;
+        height: 370px;
     }
 
-    img {
-        border-radius: 10px 10px 0 0;
-        width: 350px;
-        height: 270px;
-        background-image: url("../../images/image-header-mobile.jpg");
+    .color-mask {
+        width: 450px;
+        height: 370px;
+    }
+}
+
+@media (max-width: 1080) {
+    .container {
+        width: 100vw;
+    }
+
+    main {
+        width: 800px;
+        height: 360px;
+    }
+
+    .text {
+        width: 400px;
+        height: 370px;
+    }
+
+    section#image {
+        width: 400px;
+        height: 370px;
+    }
+
+    .color-mask {
+        
     }
 }
