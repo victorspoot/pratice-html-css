@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+
+    --font0: 'Lexend Deca', sans-serif;
+    --font1: 'Big Shoulders Display', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--Very-light-gray-background-headings-buttons);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sedans {
+    background-color: var(--Bright-orange);
+    width: 350px;
+    height: 550px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 90px;
+}
+
+.suvs {
+    background-color: var(--Dark-cyan);
+    width: 350px;
+    height: 550px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+.luxury {
+    background-color: var(--Very-dark-cyan);
+    width: 350px;
+    height: 550px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 90px;
+}
+
+h1 {
+    font-family: var(--font1);
+    font-size: 2.3em;
+    color: var(--Very-light-gray-background-headings-buttons);
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+p {
+    font-family: var(--font0);
+    font-size: 15px;
+    color: var(--Transparent-white-paragraphs);
+    padding-top: 30px;
+    line-height: 1.8em;
+}
+
