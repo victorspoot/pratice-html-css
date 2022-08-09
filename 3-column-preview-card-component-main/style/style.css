@@ -83,10 +83,43 @@ p {
 
 .button p {
     background-color: var(--Very-light-gray-background-headings-buttons);
-    color: var(--Bright-orange);
     border-radius: 50px;
     text-align: center;
     margin-top: 120px;
     width: 180px;
     padding: 15px;
 }
+
+#sedan {
+    color: var(--Bright-orange);
+}
+
+.button p#sedan:hover {
+    background-color: var(--Bright-orange);
+    color: var(--Very-light-gray-background-headings-buttons);
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#suv {
+    color: var(--Dark-cyan);
+}
+
+.button p#suv:hover {
+    background-color: var(--Dark-cyan);
+    color: var(--Very-light-gray-background-headings-buttons);
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#luxu {
+    color: var(--Very-dark-cyan);
+}
+
+.button p#luxu:hover {
+    background-color: var(--Very-dark-cyan);
+    color: var(--Very-light-gray-background-headings-buttons);
+    cursor: pointer;
+    border: 2px solid white;
+}
+
