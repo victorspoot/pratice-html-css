@@ -19,21 +19,18 @@
     box-sizing: border-box;
 }
 
-body {
-
-}
-
 .container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--Very-light-gray-background-headings-buttons);
+    background-color: var
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: minmax();
 }
 
 .sedans {
@@ -122,4 +119,5 @@ p {
     cursor: pointer;
     border: 2px solid white;
 }
+
 
