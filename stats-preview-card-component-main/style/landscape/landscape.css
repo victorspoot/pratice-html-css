@@ -104,6 +104,12 @@ p {
     letter-spacing: 2px;
 }
 
+.attribution {
+    font-size: 11px;
+    color: white;
+    text-align: center;
+}
+
 
 @media (max-width: 1380px) {
     .container {
