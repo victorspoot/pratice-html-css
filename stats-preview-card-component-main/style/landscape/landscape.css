@@ -50,9 +50,11 @@ main {
 }
 
 section#image {
-    background-image: url("../../images/image-header-desktop.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 650px;
+    height: 500px;
+}
+
+img {
     width: 650px;
     height: 500px;
 }
@@ -132,6 +134,11 @@ p {
         height: 450px;
     }
 
+    img {
+        width: 550px;
+        height: 450px;
+    }
+
     .color-mask {
         width: 550px;
         height: 450px;
@@ -163,6 +170,11 @@ p {
         height: 400px;
     }
 
+    img {
+        width: 500px;
+        height: 400px;
+    }
+
     .color-mask {
         width: 500px;
         height: 400px;
@@ -186,6 +198,11 @@ p {
     }
 
     section#image {
+        width: 450px;
+        height: 370px;
+    }
+
+    img {
         width: 450px;
         height: 370px;
     }
@@ -239,7 +256,12 @@ p {
     }
 
     section#image {
-        background-image: url("../../images/image-header-mobile.jpg");
+        width: 375px;
+        height: 275px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    img {
         width: 375px;
         height: 275px;
         border-radius: 12px 12px 0 0;
