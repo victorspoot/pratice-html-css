@@ -37,6 +37,7 @@ main {
     width: 1300px;
     height: 500px;
     background-color: var(--card-background);
+    border-radius: 8px;
 }
 
 .text {
@@ -57,6 +58,7 @@ section#image {
 img {
     width: 650px;
     height: 500px;
+    border-radius: 0 8px 8px 0; 
 }
 
 .color-mask {
