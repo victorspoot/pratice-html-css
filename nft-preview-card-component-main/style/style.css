@@ -141,10 +141,12 @@ span:hover {
 }
 
 .attribuition {
-    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     font-size: 11px;
-    text-align: center;
     color: white;
+    text-align: center;
 }
 
 a {
