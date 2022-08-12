@@ -156,3 +156,9 @@ a {
 a:visited {
     color: var(--cor1);
 }
+
+@media (max-width: 510px) {
+    .container {
+        height: 110vh;
+    }
+}
