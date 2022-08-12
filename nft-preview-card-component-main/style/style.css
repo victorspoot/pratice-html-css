@@ -21,8 +21,8 @@ body {
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 98vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,6 +160,6 @@ a:visited {
 @media (max-width: 830px) {
     .container {
         width: 96vw;
-        height: 110vh;
+        height: 115vh;
     }
 }
