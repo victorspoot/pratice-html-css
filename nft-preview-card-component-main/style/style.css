@@ -159,6 +159,7 @@ a:visited {
 
 @media (max-width: 600px) {
     .container {
+        width: 96vw;
         height: 110vh;
     }
 }
