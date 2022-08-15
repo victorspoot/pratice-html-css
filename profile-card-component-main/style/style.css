@@ -15,7 +15,7 @@
 }
 
 .container {
-    position: relative;
+    display: flex;
     overflow: hidden;
     width: 100vw;
     height: 100vh;
@@ -45,6 +45,13 @@ main {
     border-radius: 12px;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 header img:nth-child(1) {
     width: 400px;
     height: 170px;
@@ -53,7 +60,6 @@ header img:nth-child(1) {
 
 header img:nth-child(2) {
     position: absolute;
-    left: 37%;
     top: 24%;
     border: 3px solid white;
     border-radius: 50%;
