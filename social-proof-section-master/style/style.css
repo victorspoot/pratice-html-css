@@ -20,6 +20,17 @@ html, body {
     height: 100%;
 }
 
+.top {
+    position: fixed;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,7 +46,7 @@ h1 {
     color: var(--Very-Dark-Magenta);
     font-weight: 700;
     font-size: 3.5em;
-    padding-right: 300px;
+    padding-right: 250px;
 }
 
 header p {
@@ -44,7 +55,7 @@ header p {
     font-family: var(--font);
     color: var(--Dark-Grayish-Magenta);
     font-weight: 500;
-    padding-right: 170px;
+    padding-right: 160px;
     line-height: 1.2em;
 }
 
