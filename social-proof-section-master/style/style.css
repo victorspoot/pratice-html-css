@@ -20,17 +20,6 @@ html, body {
     height: 100%;
 }
 
-.pattern-top {
-    background-image: url('../images/bg-pattern-top-desktop.svg');
-    position: fixed;
-}
-
-.bottom {
-    position: fixed;
-    bottom: 0;
-    right: -100px;
-}
-
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -63,6 +52,7 @@ aside {
     display: flex;
     flex-direction: column;
     width: 500px;
+    margin-right: 20px;
 }
 
 img {
@@ -75,7 +65,7 @@ img {
 
 .review {
     background-color: var(--Light-Grayish-Magenta);
-    width: 390px;
+    width: 409px;
     padding: 19px;
     border-radius: 12px;
     text-align: center;
@@ -90,7 +80,7 @@ img {
     background-color: var(--Light-Grayish-Magenta);
     text-align: center;
     padding: 19px;
-    width: 390px;
+    width: 409px;
     align-self: center;
     margin-bottom: 15px;
     border-radius: 12px;
@@ -103,12 +93,16 @@ img {
     text-align: center;
     background-color: var(--Light-Grayish-Magenta);
     padding: 19px;
-    width: 390px;
+    width: 409px;
     align-self: flex-end;
     border-radius: 12px;
     color: var(--Very-Dark-Magenta);
     font-family: var(--font);
     font-weight: 700;
+}
+
+aside div p {
+    display: inline-block;
 }
 
 section {
