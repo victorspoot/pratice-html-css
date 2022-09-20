@@ -20,6 +20,16 @@ html, body {
     height: 100%;
 }
 
+.top {
+    position: absolute;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;

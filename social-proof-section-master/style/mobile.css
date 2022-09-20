@@ -20,6 +20,17 @@ html, body {
     height: 100%;
 }
 
+.top {
+    position: absolute;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 100px;
+}
+
 .container {
     margin: auto;
     text-align: center;
