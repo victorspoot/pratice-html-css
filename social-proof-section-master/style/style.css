@@ -21,11 +21,11 @@ html, body {
 }
 
 .top {
-    position: absolute;
+    position: fixed;
 }
 
 .bottom {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: -100px;
 }
