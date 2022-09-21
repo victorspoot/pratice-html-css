@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+    --font: 'Poppins', sans-serif;
+
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 100px;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: auto;
+}
+
+h1 {
+    
+}
+
+.card-supervisor {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+}
+
+.card-builder {
+    background-color: yellow;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.card-karma {
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+}
+
+.card-calculator {
+    background-color: green;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+}
