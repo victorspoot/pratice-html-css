@@ -19,6 +19,7 @@
 }
 
 .container {
+  display: relative;
   max-width: 1440px;
   height: 100vh;
   margin: auto;
@@ -55,39 +56,43 @@ h1 span {
 .card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 250px 0 250px;
-  row-gap: 25px;
+  grid-template-rows: 260px 0 260px;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .card-supervisor {
   grid-column: 1/2;
   grid-row: 2;
-  width: 400px;
-  height: 200px;
-  border: 1px solid black;
-  margin-left: 80px;
+  width: 350px;
+  height: 220px;
+  border-top: 5px solid var(--Cyan);
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 1px rgb(000, 000, 000,0.15);
+  margin-left: 165px;
+  padding: 10px;
 }
+
 .card-builder {
   grid-column: 3/4;
   grid-row: 1;
-  width: 400px;
-  height: 200px;
+  width: 350px;
+  height: 220px;
   border: 1px solid black;
-  margin-top: 20%;
 }
 .card-karma {
   grid-column: 3/4;
   grid-row: 2;
-  width: 400px;
-  height: 200px;
+  width: 350px;
+  height: 220px;
   border: 1px solid black;
-  margin-top: 20%;
+  margin-top: 250px;
 }
 .card-calculator {
   grid-column: 5/6;
   grid-row: 2;
-  width: 400px;
-  height: 200px;
+  width: 350px;
+  height: 220px;
   border: 1px solid black;
-  margin-right: 80px;
+  margin-right: 165px;
 }
