@@ -78,14 +78,18 @@ h1 span {
   grid-row: 1;
   width: 350px;
   height: 220px;
-  border: 1px solid black;
+  border-top: 5px solid var(--Red);
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 1px rgb(000, 000, 000,0.15);
 }
 .card-karma {
   grid-column: 3/4;
   grid-row: 2;
   width: 350px;
   height: 220px;
-  border: 1px solid black;
+ border-top: 5px solid var(--Orange);
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 1px rgb(000, 000, 000,0.15);
   margin-top: 250px;
 }
 .card-calculator {
@@ -93,6 +97,8 @@ h1 span {
   grid-row: 2;
   width: 350px;
   height: 220px;
-  border: 1px solid black;
+  border-top: 5px solid var(--Blue);
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 1px rgb(000, 000, 000,0.15);
   margin-right: 165px;
 }
