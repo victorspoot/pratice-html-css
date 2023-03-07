@@ -61,44 +61,49 @@ h1 span {
   margin-top: 20px;
 }
 
-.card-supervisor {
-  grid-column: 1/2;
-  grid-row: 2;
+.card-box {
   width: 350px;
   height: 220px;
-  border-top: 5px solid var(--Cyan);
   border-radius: 8px;
   box-shadow: 1px 1px 5px 1px rgb(000, 000, 000,0.15);
+  padding: 20px;
+}
+
+.card-supervisor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  grid-column: 1/2;
+  grid-row: 2;
+  border-top: 5px solid var(--Cyan);
   margin-left: 165px;
-  padding: 10px;
+}  
+
+.icone {
+  width: 50px;
+  height: 50px;
+}
+
+.icone1 {
+  justify-content: end;
+  background-image: url('../images/icon-supervisor.svg');
+  background-size: cover;
 }
 
 .card-builder {
   grid-column: 3/4;
   grid-row: 1;
-  width: 350px;
-  height: 220px;
   border-top: 5px solid var(--Red);
-  border-radius: 8px;
-  box-shadow: 1px 1px 5px 1px rgb(000, 000, 000,0.15);
 }
 .card-karma {
   grid-column: 3/4;
   grid-row: 2;
-  width: 350px;
-  height: 220px;
- border-top: 5px solid var(--Orange);
-  border-radius: 8px;
-  box-shadow: 1px 1px 5px 1px rgb(000, 000, 000,0.15);
+  border-top: 5px solid var(--Orange);
   margin-top: 250px;
 }
 .card-calculator {
   grid-column: 5/6;
   grid-row: 2;
-  width: 350px;
-  height: 220px;
   border-top: 5px solid var(--Blue);
-  border-radius: 8px;
-  box-shadow: 1px 1px 5px 1px rgb(000, 000, 000,0.15);
   margin-right: 165px;
 }
