@@ -38,8 +38,7 @@ header {
 h1 {
     font-family: var(--font);
     font-weight: 200;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding: 0 500px;
     color: var(--Very-Dark-Blue);
 }
 
