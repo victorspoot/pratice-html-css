@@ -26,36 +26,34 @@
   display: flex;
   flex-direction: column;
   max-width: 767px;
-  min-width: 375px;
-  height: 100vh;
   margin: auto;
   padding: 10px 40px;
 }
 
 header {
-    text-align: center;
-    margin-top: 50px;
-    width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
 }
 
 h1 {
-    font-family: var(--font);
-    font-weight: 200;
-    color: var(--Very-Dark-Blue);
+  font-family: var(--font);
+  font-weight: 200;
+  color: var(--Very-Dark-Blue);
 }
 
 h1 span {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 header p {
-    font-family: var(--font);
-    font-size: 15px;
-    color: var(--Grayish-Blue);
-    margin-top: 15px;
-    line-height: 2em;
-    padding: 0px 50px 0px 50px;
-    margin-bottom: 60px;
+  font-family: var(--font);
+  font-size: 15px;
+  color: var(--Grayish-Blue);
+  margin-top: 15px;
+  line-height: 2em;
+  padding: 0 50px;
+  margin-bottom: 60px;
 }
 
 .card-container {
@@ -71,7 +69,7 @@ header p {
   width: 350px;
   height: 220px;
   border-radius: 8px;
-  box-shadow: 1px 1px 5px 1px rgb(000, 000, 000,0.15);
+  box-shadow: 1px 1px 5px 1px rgb(000, 000, 000, 0.15);
   margin-bottom: 30px;
 }
 
@@ -88,7 +86,7 @@ h2 {
 
 .card-supervisor {
   border-top: 5px solid var(--Cyan);
-}  
+}
 
 .icone-box {
   width: 50px;
@@ -96,7 +94,7 @@ h2 {
 }
 
 .icone-supervisor {
-  background-image: url('../images/icon-supervisor.svg');
+  background-image: url("../images/icon-supervisor.svg");
   background-size: cover;
 }
 
@@ -105,7 +103,7 @@ h2 {
 }
 
 .icone-builder {
-  background-image: url('../images/icon-team-builder.svg');
+  background-image: url("../images/icon-team-builder.svg");
   background-size: cover;
 }
 
@@ -114,7 +112,7 @@ h2 {
 }
 
 .icone-karma {
-  background-image: url('../images/icon-karma.svg');
+  background-image: url("../images/icon-karma.svg");
   background-size: cover;
 }
 
@@ -123,7 +121,7 @@ h2 {
 }
 
 .icone-calculator {
-  background-image: url('../images/icon-calculator.svg');
+  background-image: url("../images/icon-calculator.svg");
   background-size: cover;
 }
 
