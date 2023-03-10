@@ -23,7 +23,6 @@
 }
 
 .container {
-  display: relative;
   max-width: 1440px;
   height: 100vh;
   margin: auto;
