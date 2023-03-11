@@ -18,11 +18,96 @@
 }
 
 .container {
-  margin: auto;
-  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
 }
 
 .container-grid {
-  
+  display: grid;
+  width: 1440px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "section-1 section-1 section-2 section-5"
+    "section-3 section-4 section-4 section-5";
+  gap: 30px;
+}
+
+.section-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: var(--font-family);
+  padding: 30px 55px 30px 55px;
+}
+
+.perfil {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.perfil p {
+  color: var(--Light-grayish-blue);
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+span {
+  display: block;
+  color: var(--Light-grayish-blue);
+  opacity: 70%;
+}
+
+.section-1 {
+  grid-area: section-1;
+  border: 1px solid black;
+  background: var(--Moderate-violet) url('../images/bg-pattern-quotation.svg') no-repeat top 0px right 100px / 125px 125px;
+}
+
+.img-1 {
+  display: inline-block;
+  background: url('../images/image-daniel.jpg') no-repeat  center/cover;
+  border-radius: 50%;
+  border: 3px solid #A775F1;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.first-p {
+  color: var(--White);
+  font-weight: 600;
+  font-size: 25px;
+}
+
+blockquote {
+  font-size: 14px;
+  color: var(--Light-gray);
+  line-height: 1.5em;
+  margin-top: 15px;
+  padding-right: 30px;
+}
+
+.section-2 {
+  grid-area: section-2;
+  border: 1px solid black;
+}
+
+.section-3 {
+  grid-area: section-3;
+  border: 1px solid black;
+}
+
+.section-4 {
+  grid-area: section-4;
+  border: 1px solid black;
+}
+
+.section-5 {
+  grid-area: section-5;
+  border: 1px solid black;
 }
