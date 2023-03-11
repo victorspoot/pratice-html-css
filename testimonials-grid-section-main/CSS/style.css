@@ -21,6 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--Light-grayish-blue);
   height: 100vh;
 }
 
@@ -40,12 +41,12 @@
   flex-direction: column;
   justify-content: space-evenly;
   font-family: var(--font-family);
-  padding: 30px 55px 30px 55px;
+  padding: 40px 65px 40px 40px;
+  border-radius: 12px;
 }
 
 .perfil {
   display: flex;
-  justify-items: center;
   align-items: center;
 }
 
@@ -54,6 +55,7 @@
   font-weight: 400;
   font-size: 14px;
   margin-left: 20px;
+  margin-bottom: 15px;
 }
 
 span {
@@ -62,15 +64,7 @@ span {
   opacity: 70%;
 }
 
-.section-1 {
-  grid-area: section-1;
-  border: 1px solid black;
-  background: var(--Moderate-violet) url('../images/bg-pattern-quotation.svg') no-repeat top 0px right 100px / 125px 125px;
-}
-
-.img-1 {
-  display: inline-block;
-  background: url('../images/image-daniel.jpg') no-repeat  center/cover;
+.img-config {
   border-radius: 50%;
   border: 3px solid #A775F1;
   width: 45px;
@@ -78,28 +72,45 @@ span {
   margin-bottom: 15px;
 }
 
+.section-1 {
+  grid-area: section-1;
+  background: var(--Moderate-violet) url('../images/bg-pattern-quotation.svg') no-repeat top 0px right 145px / 125px 125px;
+}
+
+.img-1 {
+  background: url('../images/image-daniel.jpg') no-repeat  center/cover;
+}
+
+.section-2 {
+  background-color: var(--Very-dark-grayish-blue);
+  grid-area: section-2;
+}
+
+.img-2 {
+  background: url('../images/image-jonathan.jpg') no-repeat center/cover;
+}
+
+.section-3 {
+  background-color: var(--White);
+  grid-area: section-3;
+}
+
+.img-3 {
+  background: url('../images/image-jeanette.jpg') no-repeat center/cover;
+}
+
 .first-p {
   color: var(--White);
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
+  margin-bottom: 15px;
 }
 
 blockquote {
   font-size: 14px;
   color: var(--Light-gray);
   line-height: 1.5em;
-  margin-top: 15px;
   padding-right: 30px;
-}
-
-.section-2 {
-  grid-area: section-2;
-  border: 1px solid black;
-}
-
-.section-3 {
-  grid-area: section-3;
-  border: 1px solid black;
 }
 
 .section-4 {
