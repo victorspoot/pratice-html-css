@@ -41,7 +41,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   font-family: var(--font-family);
-  padding: 30px 60px 30px 50px;
+  padding: 35px 55px 35px 50px;
   border-radius: 12px;
 }
 
@@ -101,12 +101,27 @@ span {
 
 .section-4 {
   grid-area: section-4;
+  background-color: var(--Very-dark-blackish-blue);
+}
+
+.img-4 {
+  background: url('../images/image-patrick.jpg') no-repeat center/cover;
+}
+
+.section-5 {
+  grid-area: section-5;
+  background-color: var(--White);
+}
+
+.img-5 {
+  background: url('../images/image-kira.jpg') no-repeat center/cover;
 }
 
 h1 {
   color: var(--White);
   font-weight: 600;
   margin-bottom: 10px;
+  padding-right: 30px;
 }
 
 .first-p-dark {
@@ -119,15 +134,4 @@ blockquote {
   font-size: 14px;
   color: var(--Light-gray);
   line-height: 1.7em;
-  padding-right: 30px;
-}
-
-.section-4 {
-  grid-area: section-4;
-  border: 1px solid black;
-}
-
-.section-5 {
-  grid-area: section-5;
-  border: 1px solid black;
 }
