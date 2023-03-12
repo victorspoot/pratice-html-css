@@ -27,7 +27,7 @@
 
 .container-grid {
   display: grid;
-  width: 1440px;
+  max-width: 1440px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
@@ -41,8 +41,8 @@
   flex-direction: column;
   justify-content: space-evenly;
   font-family: var(--font-family);
-  padding: 35px 55px 35px 50px;
   border-radius: 12px;
+  padding: 35px 35px 35px 35px;
 }
 
 .perfil {
@@ -121,7 +121,7 @@ h1 {
   color: var(--White);
   font-weight: 600;
   margin-bottom: 10px;
-  padding-right: 30px;
+  padding-right: 40px;
 }
 
 .first-p-dark {
