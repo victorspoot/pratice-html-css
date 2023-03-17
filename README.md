@@ -19,4 +19,6 @@ Esse repositório contem projetos html-css
 
 9- stats-preview-card-component link: <a target="_blank">https://victorspoot.github.io/pratice-html-css/stats-preview-card-component-main/</a>
 
+10- testimonials-grid-section-main/ link: <a target="_blank">https://victorspoot.github.io/pratice-html-css/testimonials-grid-section-main/</a>
+
 
