@@ -1,0 +1,25 @@
+@media screen and (max-width: 775px) {
+  .container {
+    height: 100%;
+  }
+
+  .container-grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 10px;
+  }
+  
+  .section-box {
+    padding: 30px 41px;
+    max-width: 375px;
+  }
+
+  .section-1 {
+    background: var(--Moderate-violet) url('../images/bg-pattern-quotation.svg') no-repeat top 0px right 50px / 120px 135px;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+}

@@ -34,6 +34,7 @@
     "section-1 section-1 section-2 section-5"
     "section-3 section-4 section-4 section-5";
   gap: 30px;
+  margin: 10px;
 }
 
 .section-box {
@@ -150,3 +151,41 @@ blockquote {
 .blockquote-dark {
   color: var(--Very-dark-grayish-blue);
 }
+
+.attribution {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 11px;
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+@media screen and (max-width: 1267px) {
+  .container {
+    height: 100%;
+  }
+
+  .container-grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 10px;
+  }
+  
+  .section-box {
+    padding: 35px 56px;
+    width: 700px;
+  }
+}
+
+
