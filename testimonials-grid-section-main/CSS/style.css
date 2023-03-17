@@ -42,7 +42,7 @@
   justify-content: space-evenly;
   font-family: var(--font-family);
   border-radius: 12px;
-  padding: 35px 35px 35px 35px;
+  padding: 35px 56px;
 }
 
 .perfil {
@@ -63,6 +63,13 @@ span {
   color: var(--Light-grayish-blue);
   opacity: 70%;
 }
+.perfil-dark p {
+  color: var(--Very-dark-grayish-blue);
+}
+
+.perfil-dark span {
+  color: var(--Very-dark-grayish-blue);
+}
 
 .img-config {
   border-radius: 50%;
@@ -74,7 +81,7 @@ span {
 
 .section-1 {
   grid-area: section-1;
-  background: var(--Moderate-violet) url('../images/bg-pattern-quotation.svg') no-repeat top 0px right 145px / 125px 135px;
+  background: var(--Moderate-violet) url('../images/bg-pattern-quotation.svg') no-repeat top 0px right 145px / 120px 135px;
 }
 
 .img-1 {
@@ -121,7 +128,10 @@ h1 {
   color: var(--White);
   font-weight: 600;
   margin-bottom: 10px;
-  padding-right: 40px;
+}
+
+.h1-dark {
+  color: var(--Very-dark-grayish-blue);
 }
 
 .first-p-dark {
@@ -131,7 +141,12 @@ h1 {
 }
 
 blockquote {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--Light-gray);
-  line-height: 1.7em;
+  line-height: 1.5em;
+  margin-top: 10px;
+}
+
+.blockquote-dark {
+  color: var(--Very-dark-grayish-blue);
 }
