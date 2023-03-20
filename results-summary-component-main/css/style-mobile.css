@@ -1,0 +1,53 @@
+@media screen and (max-width: 744px) {
+  .container {
+    align-items: flex-start;
+  }
+
+  main {
+    flex-direction: column;
+    width: 400px;
+    height: 100vh;
+    border-radius: 0;
+  }
+
+  .result {
+    border-radius: 0 0 25px 25px;
+    width: 400px;
+    height: 350px;
+    padding: 30px 45px;
+  }
+
+  .result h1 {
+    font-size: 20px;
+  }
+
+  .circle {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .circle p:nth-child(1) {
+    font-size: 4em;
+  }
+
+  #great {
+    margin-bottom: 10px;
+  }
+  
+  .summary {
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .box {
+    margin-top: 25px;
+  }
+
+  button {
+    margin-top: 40px;
+  }
+}
