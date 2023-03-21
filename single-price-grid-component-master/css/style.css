@@ -20,12 +20,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
   height: 100vh;
 }
 
 .main {
   display: grid;
+  max-width: 1440px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: 
@@ -34,9 +34,18 @@
 }
 
 .join {
-  grid-area: "join";
+  grid-area: join;
+  border: 1px solid black;
 }
 
 .price {
-  grid-area: "price";
+  grid-area: price;
+  border: 1px solid black;
+  width: 450px;
+}
+
+.why-us {
+  grid-area: why-us;
+  border: 1px solid black;
+  width: 450px;
 }
