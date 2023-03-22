@@ -23,4 +23,6 @@ Esse repositório contem projetos html-css
 
 11- results-summary-component-main link: https://victorspoot.github.io/pratice-html-css/results-summary-component-main/
 
+12- single-price-grid-component-master link: https://victorspoot.github.io/pratice-html-css/single-price-grid-component-master/
+
 
