@@ -1,6 +1,6 @@
 @media screen and (max-width: 776px) {
   .container {
-    height: 100%;
+    height: 100vh;
   }
 
   main {
@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 840px;
     width: 375px;
   }
 
