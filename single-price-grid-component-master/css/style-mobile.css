@@ -1,0 +1,53 @@
+@media screen and (max-width: 776px) {
+  .container {
+    max-width: 776px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 840px;
+  }
+
+  .box {
+    padding: 30px;
+  }
+
+  .join {
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+
+  .join p {
+    color: var(--Grayish-Blue);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    padding-right: 0;
+  }
+
+  .price {
+    height: 270px;
+  }
+
+  button {
+    width: 315px;
+  }
+
+  .why-us {
+    padding: 30px;
+    height: 270px;
+    border-radius: 0 0 8px 8px;
+}
+
+  
+}
