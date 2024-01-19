@@ -1,11 +1,9 @@
-.container {
-  max-width: 100vw;
-  height: 100vh;
-  background: url(../images/bg-desktop.svg) no-repeat center/cover;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.image-logo {
-  width: 500px;
-  height: 500px;
-  background: url(../images/logo.svg) no-repeat center center / 400px 400px;
+:root {
+  --violet
 }
